@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+  <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+    <title>User Portal</title>
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-dark bg-success navbar-expand-sm">
+        <div class="container">
+            <a href="#" class="navbar-brand">User Portal</a>
+        </div>
+    </nav>
+
+    <!-- portal details -->
+    <section class="container mt-3">
+        <p class="h3 text-success">User Portal</p>
+        <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem cumque, facere facilis incidunt laboriosam laborum molestias nam numquam provident qui quia quos reprehenderit saepe sed soluta tempora voluptate voluptates voluptatum!</p>
+        <button class="btn btn-success my-3" id="user-data-btn">get data from server</button>
+        <table class="table table-hover text-center table-striped shadow-lg">
+            <thead class="bg-success text-white">
+                <tr>
+                    <th>Sno</th>
+                    <th>Photo</th>
+                    <th>Full Name</th>
+                    <th>Age</th>
+                    <th>City</th>
+                    <th>State</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+
+            </tbody>
+        </table>
+
+    </section>
+
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
